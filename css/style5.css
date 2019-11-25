@@ -1,0 +1,130 @@
+/* Side bar Esquerdo */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(228, 228, 228);
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-top: 5%;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #000000;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #ff0000;
+
+}
+/* button side nav */
+
+button , h3{
+  float: center;
+  text-align: center;
+}
+h3{
+  color: rgb(0, 0, 0);
+  float: center;
+  text-align: center;
+}
+
+/* Side bar Direito */
+.sidenavd {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgb(228, 228, 228);
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-top: 5%;
+}
+
+p {
+  margin-left: 10px;
+}
+
+
+/* Menu logo 1 */
+.topnav {
+  position: fixed;;
+  overflow: hidden;
+  background-color: #2b2c2d;
+  width: 100%;
+  top: 0%;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+
+}
+#img {
+  float: left;
+} 
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.topnav-right {
+  float: right;
+  margin-right: 0%;
+}
+
+/* Section */
+
+section {
+  float: center;
+  align-items: center;
+  text-align: center;
+}
+#figure1 {
+  margin-left: 20% ;
+  width: 50%;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+
+ 
+}
+figure {
+  margin-left: 20% ;
+  width: 50%;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+
+}
+
+#side {
+  float: right;
+}
+img.scaled {
+  width: 90%;
+}
+#tite {
+  margin-top: 5%;
+
+}
+

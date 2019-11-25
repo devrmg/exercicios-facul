@@ -1,0 +1,85 @@
+body {
+	font-size: 10pt;
+	font-family: arial, sans-serif;
+}
+
+/* MEnu topo */
+
+.topo {
+	height: 50px;
+}
+
+.topo nav {
+	float:right;
+	margin: 7px 21px;
+}
+
+.topo nav a {
+	margin: 3px 6px;
+	color: #404040;
+}
+
+.topo nav a:hover {
+	color: #111111;
+}
+
+
+ /* Logo Google */
+ 
+ #logo {
+    text-align: center;
+    margin-top: 14%;
+}
+
+
+/* Campo de pesquisa */
+.input {
+   
+    margin-left: 30%;
+  
+    width: 40%;
+    height: 25px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 2%;
+}
+
+
+/* Botoes */
+
+#button {
+   text-align: center;
+   margin-left:2%;
+   
+}
+button {
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+}
+#right{ margin-right: 1%;}
+
+
+
+ /* Rodape */ 
+.navbarbottom {
+    overflow: hidden;
+    background-color: rgba(209, 209, 209, 0.274);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+  }
+  
+  .navbarbottom a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+  }

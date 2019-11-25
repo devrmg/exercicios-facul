@@ -1,0 +1,100 @@
+ /* corpo */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #14222f;
+     color: white;
+  }
+
+.imgbanner {
+  width: 100rem;
+  height: 400px;
+  }
+/* Article */
+  #h1t {
+    text-align: center;
+  }
+  h1{background-color: ;
+    font-size: 3rem;
+    margin: 20px 40px 20px 40px;
+    color: white;
+  }
+  #parag{ margin: 10px 40px 10px 40px;
+          font-size: 2rem;
+              color: white;
+  }
+  #laranja {color: #FFC107;}
+  #azul{color:#2196F3;}
+  /* Menu logo 1 */
+  .topnav {
+    position: fixed;;
+    overflow: hidden;
+    background-color: rgb(0, 0, 26);
+    width: 100%;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .topnav-right {
+    float: right;
+  }
+/* menu  2*/
+#nav {
+    top: 47px;
+}
+.navbar {
+  overflow: hidden;
+  background-color:#14222f;
+  position: fixed;
+  top: 20px;
+  width:100%;
+  text-align: center;
+}
+.navbar a {
+  float: center;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 13px;
+  margin-left:3em;
+}
+
+/* Oque Deseja Cursar*/
+ figcaption {
+  position: absolute;
+  left: 22%;
+  top: 30%;
+  font-size: 40px;
+  color: rgb(13, 13, 14);
+  text-shadow: 1px black; 
+  font-weight: bolder;
+}
+#cursar {
+    color: rgba(255, 72, 0, 0.959);
+}
+/* Rodape */
+footer {
+    background-color: black;
+    height: 200px;
+    color: #f2f2f2;
+    top: 30%;
+}
+ #foot {
+     text-align: center;
+    padding: 2%;
+ }
