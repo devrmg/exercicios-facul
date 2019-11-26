@@ -9,6 +9,34 @@ hr {
   width: 90%;
 }
 
+/* Menu logo 1 */
+.topnav {
+  position: fixed;
+  background-color: #2b2c2d;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  height: 50px;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bolder;
+  
+}
+
+span {
+  float: left;
+}
+.topnav-right {
+  float: right;
+}
+
+
 /* Side bar Esquerdo */
 .sidenav {
 
@@ -71,39 +99,6 @@ p {
 }
 
 
-/* Menu logo 1 */
-.topnav {
-  position: fixed;
-  background-color: #2b2c2d;
-  width: 100%;
-  top: 0%;
-  left: 0%;
-  height: 50px;
-}
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 15px;
-  font-weight: bolder;
-  
-}
-span {
-  float: left;
-}
-
-.topnav-centered a {
-  float: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.topnav-right {
-  float: right;
-}
 
 /* Section */
 
