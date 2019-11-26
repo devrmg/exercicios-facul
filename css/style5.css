@@ -1,3 +1,8 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #edeef0;
+}
+
 /* Side bar Esquerdo */
 .sidenav {
   height: 100%;
