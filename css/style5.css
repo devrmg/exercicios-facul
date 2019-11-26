@@ -139,3 +139,18 @@ img.scaled {
   margin-top: 5%;
 }
 
+footer {
+  height: 50px;
+  background: rgb(190, 188, 180);
+
+}
+#foot {
+  vertical-align: middle;
+  text-align: center;
+  text-decoration-line: none;
+  padding:1%;
+}
+a:link{
+  text-decoration: none;
+
+  ;}
