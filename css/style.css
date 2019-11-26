@@ -9,7 +9,8 @@ body {
 /* Banner e Texto do Banner e Input */
 
   .container {
-    position: relative;top: 10%;
+    position: static;
+    top: 10%;
   }
   
   #image {
@@ -94,6 +95,7 @@ article{margin: 30px 30px 30px 30px;}
     top: 47px;
 }
 .navbar {
+  
   overflow: hidden;
   background-color:#14222f;
   position: fixed;
