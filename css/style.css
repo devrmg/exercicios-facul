@@ -1,33 +1,71 @@
  /* corpo */
 body {
-    margin: 0;
+    margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     background: #14222f;
-     color: white;
+    color: white;
   }
 
-.imgbanner {
-  width: 100rem;
-  height: 400px;
+/* Banner e Texto do Banner e Input */
+
+  .container {
+    position: relative;top: 10%;
   }
-/* Article */
+  
+  #image {
+    margin-top:4%;
+    width: 100%;
+    height: 600px;
+  }
+  
+  #texto {
+    position: absolute;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times;
+    color:rgb(0, 11, 20);
+    left: 290px;
+    top: 240px;
+    font-weight: 900;
+    
+  } 
+  #cursar {
+    color: rgba(255, 72, 0, 0.959);
+  }
+input { 
+  -webkit-border-radius: 50px;
+border-radius: 5px;
+  
+  height: 40px;
+    outline: 0;
+}
+
+
+
+
+/* Artigo Texto Eniac */
+
+article{margin: 30px 30px 30px 30px;}
   #h1t {
     text-align: center;
   }
-  h1{background-color: ;
+  h1{
+    background-color: ;
     font-size: 3rem;
-    margin: 20px 40px 20px 40px;
+  
     color: white;
   }
-  #parag{ margin: 10px 40px 10px 40px;
+  #parag{ 
+          margin: 10px 40px 10px 40px;
           font-size: 2rem;
-              color: white;
+          color: white;
   }
   #laranja {color: #FFC107;}
   #azul{color:#2196F3;}
-  /* Menu logo 1 */
+
+
+  /* Menu  nav logo 1 */
   .topnav {
-    position: fixed;;
+    position: fixed;
     overflow: hidden;
     background-color: rgb(0, 0, 26);
     width: 100%;
@@ -68,33 +106,23 @@ body {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+
   text-decoration: none;
   font-size: 13px;
-  margin-left:3em;
+  margin-left:7em;
 }
 
-/* Oque Deseja Cursar*/
- figcaption {
-  position: absolute;
-  left: 22%;
-  top: 30%;
-  font-size: 40px;
-  color: rgb(13, 13, 14);
-  text-shadow: 1px black; 
-  font-weight: bolder;
-}
-#cursar {
-    color: rgba(255, 72, 0, 0.959);
-}
 /* Rodape */
 footer {
-    background-color: black;
+    background-color: hsla(202, 44%, 5%, 0.719);
     height: 200px;
     color: #f2f2f2;
-    top: 30%;
+    top: 60%;
 }
  #foot {
      text-align: center;
-    padding: 2%;
+     padding: 5%;
  }
+
+
+

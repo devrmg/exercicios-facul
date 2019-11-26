@@ -23,7 +23,6 @@ body {
 	color: #111111;
 }
 
-
  /* Logo Google */
  
  #logo {
@@ -65,7 +64,7 @@ button {
 
 
  /* Rodape */ 
-.navbarbottom {
+.rodape {
     overflow: hidden;
     background-color: rgba(209, 209, 209, 0.274);
     position: fixed;
@@ -74,7 +73,7 @@ button {
     height: 40px;
   }
   
-  .navbarbottom a {
+  .rodape a {
     float: left;
     display: block;
     color: #000000;
